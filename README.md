@@ -1,18 +1,25 @@
-Dashcore Library
-================
+# Dashcore Library
 
-[![NPM Package](https://img.shields.io/npm/v/@dashevo/dashcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/@dashevo/dashcore-lib)
-[![Build Status](https://img.shields.io/travis/dashevo/dashcore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/dashevo/dashcore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/dashevo/dashcore-lib.svg?style=flat-square)](https://coveralls.io/github/dashevo/dashcore-lib?branch=master)
+[![Build Status](https://img.shields.io/travis/dashevo/dashcore-lib.svg?branch=master)](https://travis-ci.org/dashevo/dashcore-lib)
+[![NPM Package](https://img.shields.io/npm/v/@dashevo/dashcore-lib.svg)](https://www.npmjs.org/package/@dashevo/dashcore-lib)
 
-A pure and powerful JavaScript Dash library.
-
-## Principles
+> A pure and powerful JavaScript Dash library.
 
 Dash is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient Dash infrastructure, and the developer community needs reliable, open-source tools to implement Dash apps and services.
 
-## Get Started
+## Table of Contents
+- [Install](#install)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Making requests](#making-basic-requests)
+- [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Install
+
 ### NodeJS
+
 ```
 npm install @dashevo/dashcore-lib
 ```
@@ -20,7 +27,6 @@ npm install @dashevo/dashcore-lib
 ### Browser
 
 See the section below to generate your own bundle, or download the pre-generated [minified file](dist/dashcore-lib.min.js)
-
 
 ## Docs
 
@@ -42,7 +48,6 @@ See the section below to generate your own bundle, or download the pre-generated
 ## Examples
 
 Some examples can be found [here](docs/examples.md), below is a list of direct links for some of them.
-
 
 * [Generate a random address](docs/examples.md#generate-a-random-address)
 * [Generate a address from a SHA256 hash](docs/examples.md#generate-a-address-from-a-sha256-hash)
@@ -105,8 +110,7 @@ Run all the tests:
 npm test
 ```
 
-You can also run just the Node.js tests with `npm run test:node`, just the browser tests with `npm run test:browser`
-or run a test coverage report with `npm run coverage`.
+You can also run just the Node.js tests with `npm run test:node`, just the browser tests with `npm run test:browser` or run a test coverage report with `npm run coverage`.
 
 ## License
 
