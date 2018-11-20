@@ -111,8 +111,6 @@
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "jshint": "^2.9.5",
     "karma": "^2.0.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.2.0",
