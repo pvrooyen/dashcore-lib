@@ -119,7 +119,7 @@
     "karma-mocha": "^1.3.0",
     "karma-mocha-reporter": "^2.2.5",
     "karma-webpack": "^3.0.0",
-    "mocha": "^5.0.4",
+    "mocha": "^5.2.0",
     "nyc": "^11.6.0",
     "raw-loader": "^0.5.1",
     "sinon": "^4.2.2",
